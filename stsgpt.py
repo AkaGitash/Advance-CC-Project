@@ -3,6 +3,10 @@ import speech_recognition as sr
 import pyttsx3
 import time 
 import re
+import config
+
+
+
 
 from playsound import playsound
 from gtts import gTTS
@@ -13,7 +17,7 @@ def stop_program(transcription):
 
 # Initialize OpenAI API
 
-openai.api_key = "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"
+openai.api_key = config.API_KEYS['openai']
 
 # Initialize the text to speech engine 
 
