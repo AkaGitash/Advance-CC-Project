@@ -1,0 +1,104 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Akash Yadav} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+1(91) 9696937058 \\ Lucknow,UP} 
+\address{\href{mailto:akashyadav.iet@gmail.com}{akashyadav.iet@gmail.com} \\ \href{https://linkedin.com/in/akash-yadav-0aba45203}{linkedin.com/akash-yadav} }  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf }Institute Of Engineering And Technology, Lucknow \hfill {Expected 2024}\\
+B.Tech in Electrical Engineering - CGPA - 8.04.
+
+{\bf} Senior Secondary (12th), Air Force School, Kanpur: Percentage: 88\%  \hfill {2019}
+
+{\bf} Secondary (10th), Air Force School, Kanpur: CGPA: 10.00/10.00  \hfill {2017}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & C, C++, Python, SQL, HTML, CSS
+\\
+Tools / Framework  & React.JS, Express, Bootstrap, MySQL\\
+Concepts & Data Structures and Algorithms, DBMS, OOPS\\
+\end{tabular}\\
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{WORK EXPERIENCE}
+\vspace{-1.25em}
+\item \textbf{Research & Development Intern} {Developed a human-like customer care system integrating OpenAI's STT, GPT, and Google TTS APIs. Utilized Python, Node.js, and Java with Flask, Express.js, and Spring Boot web frameworks. Implemented IVR for user input.
+
+\end{rSection}
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Weather Application} {Developed a real-time web app using the openweathermap.org API to provide weather updates for a specific location. Input is based on city name, and output includes temperature and weather conditions.
+\\ Used: Node.js Express.js Handlebars HTML CSS 
+\item \textbf{Personal Portfolio Website} {Developed and launched a professional website to showcase my expertise and services using CSS, JS, and HTML. The website offers comprehensive information about my skills, services, and contact details, while being visually appealing and user-friendly.}
+\item\textbf{Book Store REST API Web App} {Developed a web application utilizing Node.js, Express, MongoDB, and Mongoose (ODM) to create a scalable and efficient platform for browsing trough books, signup, login, edit and deleting their data. Implemented basic authentication and authorization functionality with the use of JWT. Demonstrated strong proficiency in full-stack development through agile methodologies.
+}
+
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{ACHIEVEMENTS & RESPONSIBILITIES} 
+\begin{itemize}
+    \item  Training & Placement Coordinator at IET Lucknow.
+    \item  Runner-ups at under 15 football match organized by District Olympiad Association, Jodhpur.
+    \item  3* at CodeChef
+    \item  One of the top five teams among 25 in the Auctum cultural fest at IET Lucknow organized by E-Cell.
+    \item  Solved 750+ DSA Problems at Codeforces, Codechef, Leetcode, GeeksForGeeks,etc.
+    \item  Scored a rank of 497/3200+ participants at STARTERS 59.
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Leadership} 
+\begin{itemize}
+    \item  Handled placement drive for multiple companies. Actively participated in facilitating offline drives, technical setups, and more alongside other TPRs and TPOs! 
+\end{itemize}
+
+
+\end{rSection}
+
+\begin{rSection}{HOBBIES} 
+\begin{itemize}
+    \item Football.
+    \item Chess.
+    \item Explore music.
+\end{itemize}
+
+
+\end{rSection}
+
+
+\end{document}
